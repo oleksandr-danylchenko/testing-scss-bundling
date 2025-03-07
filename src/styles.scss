@@ -1,0 +1,116 @@
+// Color Variables
+$blue: #5a80ff;
+$cobalt-blue: #3762f7;
+$lighter-blue: #5aa0ff;
+$very-light-blue: #f5f7ff;
+$blue-disabled: #9ac0ff;
+$green: rgb(44, 169, 53);
+$red: #ff0043;
+$orange: #ff8200;
+$cell-orange: #f57b1a;
+$grey: #686868;
+$grey2: #c8c8c8;
+$dark-grey: #18345e;
+$light-grey: #dce7ff;
+$dark-blue: #0f1836;
+$very-dark-blue: #0b152b;
+$white: #fff;
+$dark-white: #f1f1f1;
+$darker-white: #eaeaea;
+$black: #000;
+$faded-black: rgb(40, 40, 40);
+$faded-yellow: #f0ee86;
+
+$toc-entry: #b3b3b1;
+$toc-entry-active: #fff;
+$light-lavender: #cdd9ff;
+$medium-light-lavender: #9cb3ff;
+$lavender: #5a80ff;
+$medium-dark-lavender: #4867cc;
+$dark-lavender: #364d99;
+$dark-navy1: #0b152b;
+$dark-navy2: #0f1a36;
+$dark-navy3: #14294d;
+$medium-light-grey: #777;
+$darker-grey: #333332;
+
+$pleasant-red: #c02027;
+
+$input-highlight-on-success: $faded-yellow;
+
+$off-white: rgb(240, 240, 240);
+$off-white2: rgb(250, 250, 250);
+
+$app-accent-color: $blue;
+
+// Dummy definitions for variables used below
+$radio-btn-grey: #ccc;
+$search-input-color: #333;
+$search-input-disabled-background-color: #eee;
+
+$grid-view-alternate-row-background-color: #f9f9f9;
+$grid-view-vertical-line-color: #ddd;
+$grid-view-scroll-stop-color: #bbb;
+$timing-cell-accent-color: #aaa;
+
+$table-view-vertical-line-color: #999;
+
+// Export your variables for JavaScript consumption.
+:export {
+  blue: $blue;
+  cobaltBlue: $cobalt-blue;
+  lighterBlue: $lighter-blue;
+  veryLightBlue: $very-light-blue;
+  blueDisabled: $blue-disabled;
+  green: $green;
+  red: $red;
+  orange: $orange;
+  grey: $grey;
+  grey2: $grey2;
+  darkGrey: $dark-grey;
+  lightGrey: $light-grey;
+  darkBlue: $dark-blue;
+  veryDarkBlue: $very-dark-blue;
+  white: $white;
+  darkWhite: $dark-white;
+  darkerWhite: $darker-white;
+  black: $black;
+  fadedBlack: $faded-black;
+  fadedYellow: $faded-yellow;
+
+  tocEntry: $toc-entry;
+  tocEntryActive: $toc-entry-active;
+  lightLavender: $light-lavender;
+  mediumLightLavender: $medium-light-lavender;
+  lavender: $lavender;
+  mediumDarkLavender: $medium-dark-lavender;
+  darkLavender: $dark-lavender;
+  darkNavy1: $dark-navy1;
+  darkNavy2: $dark-navy2;
+  darkNavy3: $dark-navy3;
+  mediumLightGrey: $medium-light-grey;
+  darkerGrey: $darker-grey;
+
+  pleasantRed: $pleasant-red;
+
+  inputHighlightOnSuccess: $input-highlight-on-success;
+
+  offWhite: $off-white;
+  offWhite2: $off-white2;
+
+  appAccentColor: $app-accent-color;
+
+  // Search Box
+  radioBtnGrey: $radio-btn-grey;
+  searchInputColor: $search-input-color;
+  searchInputDisabledBackgroundColor: $search-input-disabled-background-color;
+
+  // Grid View
+  gridViewAlternateRowBackgroundColor: $grid-view-alternate-row-background-color;
+  gridViewVerticalLineColor: $grid-view-vertical-line-color;
+  gridViewScrollStopColor: $grid-view-scroll-stop-color;
+  timingCellAccentColor: $timing-cell-accent-color;
+
+  // Table View (used in "bulk grader" views)
+  tableViewVerticalLineColor: $table-view-vertical-line-color;
+}
