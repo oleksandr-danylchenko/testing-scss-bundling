@@ -13,11 +13,19 @@ module.exports = {
 			{
 				test: /\.scss$/,
 				use: [
-					'style-loader', // Injects styles into DOM
-					'css-loader',   // Translates CSS into CommonJS
-					'sass-loader'   // Compiles Sass to CSS
-				]
-			}
+					'style-loader',
+					{
+						loader: 'css-loader',
+						options: {
+							importLoaders: 1,
+							modules: {
+								mode: "icss", // Enable ICSS (Interoperable CSS)
+							},
+						},
+					},
+					'sass-loader',
+				],
+			},
 		]
 	},
 	plugins: [
